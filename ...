@@ -1,0 +1,16 @@
+-1- Bán kính đường tròn ngoại tiếp (R), nội tiếp của tam giác (r):
+3 cạnh độ dài a, b, c
+P = (a + b + c) / 2
+S = can(p * (p - a) * (p - b) * (p - c))
+r = S / P
+R = a * b * c / (4 * S)
+---
+-2- Tích vô hướng (D) và tích có hướng C(x, y) trong không gian tọa độ 2D:
+A = (xa, ya), B = (xb, yb)
+D = xa * xb + ya * yb
+D = 0 => cos(Y) = 0 => Y = 90 độ
+C(x, y) = (xa * yb - ya * xb)
+---
+-3- Phương trình đường thẳng đi qua 2 điểm A = (xa, ya) và B = (xb, yb)
+vector chỉ phương: n = (xn, yn) = (xb - xa, yb - ya)
+vector pháp tuyến: v = (xv, yv) = (yn, -xn)
